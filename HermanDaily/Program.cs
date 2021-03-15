@@ -101,8 +101,6 @@ namespace HermanDaily
             File.AppendAllText(LogFile, "Application duration: " + applicationTimer.ElapsedMilliseconds + Environment.NewLine);
 
             DumpLog();
-
-            Console.ReadLine();
         }
 
         /// <summary>
