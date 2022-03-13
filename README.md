@@ -1,12 +1,12 @@
-# HermanDaily
+# BirdWatching
 
-Twitter bot responsible for posting daily images of my tortoise - [Herman](https://twitter.com/HermanThePog).
-
-The bot is actually pretty generic and could easily be used for posting random jpgs from any image directory for any Twitter account.
+Twitter bot capable of posting a random image from a directory.
+Intended to be executed with a CronJob.
+The bot was originally developed for the purpose of posting images of my [tortoises.](https://twitter.com/OurTortoiseLife).
 
 ## Building
 
-To build the project you will need .NET Core 3.1.
+To build the project you will need the .NET 6.0 SDK.
 
 To build the project:
 
