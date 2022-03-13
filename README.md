@@ -1,8 +1,8 @@
 # BirdWatching
 
-Twitter bot capable of posting a random image from a directory.
-Intended to be executed with a CronJob.
-The bot was originally developed for the purpose of posting images of my [tortoises.](https://twitter.com/OurTortoiseLife).
+Twitter bot capable of posting a random image from a directory. Intended to be executed with a CronJob.
+
+The bot was originally developed for the purpose of posting images of my [tortoises](https://twitter.com/OurTortoiseLife).
 
 ## Building
 
