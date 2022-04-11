@@ -24,6 +24,7 @@ public static class Program
         LogFileStart = File.ReadLines(LogFile).Count();
 
         File.AppendAllText(LogFile, DateTime.UtcNow.ToString());
+        File.AppendAllText(LogFile, Environment.NewLine);
 
         // Verify we have a consumer key for making API requests.
         if (string.IsNullOrWhiteSpace(ConsumerKey))
